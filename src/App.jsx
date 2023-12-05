@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div>
       <NavBar />
-      <ItemListContainer greeting={"Bienvenidos a mi ecommerce"} />
+      <ItemListContainer greeting={"Bienvenidos a mi ecommerce en react"} />
     </div>
   )
 }
