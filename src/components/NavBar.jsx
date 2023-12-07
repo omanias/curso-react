@@ -1,41 +1,13 @@
 import React from 'react'
 import CartWidget from './CartWidget'
-import { Flex, Spacer, Box, Menu, MenuButton, MenuList, MenuItem } from '@chakra-ui/react'
 
-const NavBar = () => {
+const Navbar = () => {
     return (
         <div>
-
-            <Flex>
-                <Box p='4'>
-                    MyEcommerce
-                </Box>
-                <Spacer />
-
-
-                <Menu>
-                    <MenuButton>
-                        Categorías
-                    </MenuButton>
-                    <MenuList>
-                        <MenuItem>Categoría 1</MenuItem>
-                        <MenuItem>Categoría 2</MenuItem>
-                    </MenuList>
-                </Menu>
-
-
-                <Spacer />
-
-
-
-                <Box p='4'>
-                    <CartWidget />
-                </Box>
-            </Flex>
-
-
+            <p>My Ecommerce</p>
+            <CartWidget />
         </div>
     )
 }
 
-export default NavBar
+export default Navbar
